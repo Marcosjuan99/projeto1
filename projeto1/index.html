@@ -7,31 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PROJETO1</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-    <input type="number" name="caixa1" id="caixa1">
+    <input type="number" name="boxOne" id="boxOne">
     <p>+</p>
-    <input type="number" name="caixa2" id="caixa2">
-    <input type="button" value="calcular" onclick="calcular()" id="calcular">
-    <div class="rst"> O RESULTADO É
+    <input type="number" name="boxTwo" id="boxTwo">
+    <input type="button" value="calcular" onclick="calculate()" id="calculate">
+    <div class="result"> O RESULTADO É
         <div id="res"></div>
     </div>
 
-    <script>
-        function calcular() {
-            var cx1 = window.document.getElementById('caixa1')
-            var cx2 = window.document.getElementById('caixa2')
-            var res = window.document.getElementById('res')
-            var c1 = Number(cx1.value)
-            var c2 = Number(cx2.value)
-            var r = c1 + c2
-            res.innerHTML = `${r}`
-
-        }
-    </script>
-
+    <script src="code.js"></script>
 </body>
 
 </html>

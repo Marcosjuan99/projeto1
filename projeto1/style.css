@@ -3,7 +3,7 @@ body {
     display: flex;
 }
 
-#caixa1 {
+#boxOne {
     position: absolute;
     border-style: none;
     width: 178px;
@@ -35,7 +35,7 @@ p {
     color: #FFFFFF;
 }
 
-#caixa2 {
+#boxTwo {
     position: absolute;
     border-style: none;
     width: 178px;
@@ -54,7 +54,7 @@ p {
 }
 
 
-#calcular {
+#calculate {
     position: absolute;
     border-style: none;
     width: 171px;
@@ -91,7 +91,7 @@ h1 {
     color: #FFFFFF;
 }
 
-.rst {
+.result {
     display: flex;
     margin-left: 270px;
     margin-top: 330px;
